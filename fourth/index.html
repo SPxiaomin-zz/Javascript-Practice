@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title>Jay Skript and the Domsters</title>
+        <script src="{{url_for('static', filename='modernizr-1.6.min.js')}}"></script>
+        <link rel="stylesheet" media="screen" href="{{url_for('static', filename='basic.css')}}" />
+    </head>
+
+    <body>
+        <header>
+            <img src="{{url_for('static', filename='logo.gif')}}" alt="Jay Skript and the Domsters" />
+            <nav>
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/photos">Photos</a></li>
+                    <li><a href="/live">Live</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>Lorem Ipsum Dolor</h1>
+            <p id="intro">
+            Welcome to the official website of Jay Skript and the Domsters.
+            Here, you can <a href="/about" title="About">learn more about the band</a>,
+            view <a href="/photos" title="Photos">photos of the band</a>,
+            find out about <a href="/live" title="Tour Date">tour dates</a>
+            and <a href="/contact" title="Contact">get in touch with the band</a>.
+            </p>
+        </article>
+        <script src="{{url_for('static', filename='global.js')}}"></script>
+    </body>
+</html>

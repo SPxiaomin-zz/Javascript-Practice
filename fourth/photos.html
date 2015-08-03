@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title>Jay Skript and the Domsters</title>
+        <script src="{{url_for('static', filename='modernizr-1.6.min.js')}}"></script>
+        <link rel="stylesheet" media="screen" href="{{url_for('static', filename='basic.css')}}" />
+    </head>
+
+    <body>
+        <header>
+            <img src="{{url_for('static', filename='logo.gif')}}" alt="Jay Skript and the Domsters" />
+            <nav>
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/photos">Photos</a></li>
+                    <li><a href="/live">Live</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>Photos of the band</h1>
+            <ul id="imagegallery">
+                <li>
+                    <a href="/static/photos/concert.jpg" title="The crowd goes wild">
+                        <img src="/static/photos/thumbnail_concert.jpg" alt="the band in concert" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/static/photos/bassist.jpg" title="An atmospheric moment">
+                        <img src="/static/photos/thumbnail_bassist.jpg" alt="the bassist" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/static/photos/guitarist.jpg" title="Rocking out">
+                        <img src="/static/photos/thumbnail_guitarist.jpg" alt="the guitarist" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/static/photos/crowd.jpg" title="Encore! Encore!">
+                        <img src="/static/photos/thumbnail_crowd.jpg" alt="the audience" />
+                    </a>
+                </li>
+            </ul>
+        </article>
+        <script src="{{url_for('static', filename='global.js')}}"></script>
+    </body>
+</html>
