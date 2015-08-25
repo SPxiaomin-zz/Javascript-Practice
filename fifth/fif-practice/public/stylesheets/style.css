@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* color */
+    color: #333;
+    background-color: #fff;
+
+    /* typography */
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif 14px/1.4286;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;   
+}
+
+#box {
+    /* layout */
+    height: auto;
+    width: 550px;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top {
+    height: 40px;
+}
+
+.top a {
+    display: block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid black;
+    margin: 5px;
+    float: right;
+}
+
+.btn-list-off {
+    background: #fff url(/images/btns.jpg) no-repeat -38px 0px;
+}
+
+.btn-car-on {
+    background: #fff url(/images/btns.jpg) no-repeat -21px -34px;
+}
+
+.btn-list-on {
+    background: #fff url(/images/btns.jpg) no-repeat -21px 0px;
+}
+
+.btn-car-off {
+    background: #fff url(/images/btns.jpg) no-repeat -38px -32px;
+}
+
+#box ul li {
+    height: auto;
+    width: 164px;
+    border: 1px solid #aaa;
+    margin: 7px;
+    float: left;
+}
+
+.a-img {
+    display: block;
+    height: 164px;
+    width: 164px;
+    overflow: hidden;
+}
+
+p a,
+p span {
+    display: block;
+    line-height: 23px;
+    padding-left: 10px;
+}
+
+.bottom {
+    background-color: #ccc;
+
+    line-height: 40px;
+    text-align: center;
+}
+
+.small {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 5px;
+}
