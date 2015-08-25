@@ -6,16 +6,16 @@
 
 > the effect of the infomation arrangement
 
-> ![effect pic](/effect.png)
+> ![effect pic](./effect.png)
 
 ## the Main Knowledge Point:
 
 > - `window.onload`
-  - `document.getElementById`
-  - `document.getElementsByTagName`
-  - `className`
-  - `onclick`
-  - `event-driven function`:  
+- `document.getElementById`
+- `document.getElementsByTagName`
+- `className`
+- `onclick`
+- `event-driven function`:  
             
             window.onload = function () {};
             element.onclick = function () {};
